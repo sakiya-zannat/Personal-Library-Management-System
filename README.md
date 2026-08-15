@@ -38,6 +38,7 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
 ├── script.js         # Interactivity & Data Structure Logic Simulation
 └── main.cpp         # Original C++ Source Code
 ```
+---
 💻 How to Run
 
     Clone the Repository:
@@ -47,7 +48,7 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
 
     Open the Project:
     Navigate to the project directory and open index.html in any modern web browser.
-
+---
 📖 Usage Guide
 
     Select Operation: Choose between Insert, Delete, Search, or Display.
