@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Personal Library Management System</h1>
+            <p>Select an operation to manage your book collection</p>
+        </header>
+
+        <!-- Dynamic Status Message Banner -->
+        <div id="statusAlert" class="alert-banner" style="display: none;">
+            <span id="alertMessage">System Ready.</span>
+        </div>
+
+        <div class="main-content">
+            <!-- Left Side: Control Panel Form -->
+            <div class="card control-panel">
+                <h2>Control Panel</h2>
+                
+                <div class="form-group">
+                    <label for="operationSelect">Select Operation:</label>
+                    <select id="operationSelect">
+                        <option value="insert">1. Insert Book</option>
+                        <option value="delete">2. Delete Book</option>
+                        <option value="search">3. Search Book</option>
+                        <option value="display">4. Display Books</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="dsSelect">Select Data Structure:</label>
+                    <select id="dsSelect">
+                        <option value="array">a. Sorted Array</option>
+                        <option value="list">b. Linked List</option>
+                        <option value="stack">c. Stack</option>
+                        <option value="queue">d. Queue</option>
+                        <option value="treeLinked">e. Binary Tree (Linked)</option>
+                        <option value="treeArray">e. Binary Tree (Array)</option>
+                    </select>
+                </div>
+
+                <hr>
+
+                <div id="bookInputs">
+                    <div class="form-group" id="idGroup">
+                        <label for="bookID">Book ID:</label>
+                        <input type="number" id="bookID" placeholder="Enter Book ID">
+                    </div>
+
+                    <div class="form-group" id="titleGroup">
+                        <label for="bookTitle">Book Title:</label>
+                        <input type="text" id="bookTitle" placeholder="Enter Book Title">
+                    </div>
+
+                    <div class="form-group" id="authorGroup">
+                        <label for="bookAuthor">Author Name:</label>
+                        <input type="text" id="bookAuthor" placeholder="Enter Author Name">
+                    </div>
+                </div>
+
+                <button id="actionBtn" onclick="executeOperation()">Submit Action</button>
+            </div>
+
+            <!-- Right Side: Clean Book Display Section -->
+            <div class="card display-panel">
+                <h2>Book Collection / Search Result</h2>
+                <div id="recordsList" class="records-grid">
+                    <p class="empty-msg">No records displayed. Execute "Display" or "Search".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -37,6 +37,7 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
 ├── style.css        # Custom Styling & Responsive Design
 ├── script.js         # Interactivity & Data Structure Logic Simulation
 └── main.cpp         # Original C++ Source Code
+```
 💻 How to Run
 
     Clone the Repository:
@@ -58,5 +59,4 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
     Submit: Click Submit Action to execute the operation and view the updated records.
 
     ---
-    
     [https://github.com/sakiya-zannat/Personal-Library-Management-System.git](https://github.com/sakiya-zannat/Personal-Library-Management-System.git)
