@@ -61,7 +61,10 @@ https://sakiya-zannat.github.io/Personal-Library-Management-System/
 
     4. Submit: Click Submit Action to execute the operation and view the updated records.
 
-   ## 📞 Contact & Links
+## Author
+- Sakiatun Zannat
+
+## 📞 Contact & Links
 
 Sakiatun Zannat
 
