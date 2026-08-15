@@ -59,4 +59,12 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
 
     4. Submit: Click Submit Action to execute the operation and view the updated records.
 
-    `[https://github.com/sakiya-zannat/Personal-Library-Management-System.git](https://github.com/sakiya-zannat/Personal-Library-Management-System.git)`
+   ## 📞 Contact & Links
+
+Sakiatun Zannat
+
+Computer Science and Engineering Student
+
+✉️ sakia.zannat2023@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/sakiatun-zannat-332943293) • [GitHub](https://github.com/sakiya-zannat) • [Facebook](https://www.facebook.com/sakia.zannat1)
