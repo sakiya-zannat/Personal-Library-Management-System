@@ -39,25 +39,24 @@ This application allows users to perform CRUD-like operations (Insert, Delete, S
 └── main.cpp         # Original C++ Source Code
 ```
 ---
-💻 How to Run
+## 💻 How to Run
 
-    Clone the Repository:
+    1. Clone the Repository:
     Bash
 
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone https://github.com/sakiya-zannat/Personal-Library-Management-System.git
 
-    Open the Project:
+    2. Open the Project:
     Navigate to the project directory and open index.html in any modern web browser.
 ---
-📖 Usage Guide
+## 📖 Usage Guide
 
-    Select Operation: Choose between Insert, Delete, Search, or Display.
+    1. Select Operation: Choose between Insert, Delete, Search, or Display.
 
-    Select Data Structure: Choose your preferred structure (Array, Linked List, Stack, Queue, or Tree).
+    2. Select Data Structure: Choose your preferred structure (Array, Linked List, Stack, Queue, or Tree).
 
-    Enter Details: Input the required fields (e.g., Book ID, Title, Author).
+    3. Enter Details: Input the required fields (e.g., Book ID, Title, Author).
 
-    Submit: Click Submit Action to execute the operation and view the updated records.
+    4. Submit: Click Submit Action to execute the operation and view the updated records.
 
-    ---
-    [https://github.com/sakiya-zannat/Personal-Library-Management-System.git](https://github.com/sakiya-zannat/Personal-Library-Management-System.git)
+    `[https://github.com/sakiya-zannat/Personal-Library-Management-System.git](https://github.com/sakiya-zannat/Personal-Library-Management-System.git)`
